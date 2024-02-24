@@ -11,4 +11,8 @@ The stakeholder only wants to include information for movies based on the follow
 - Exclude movies that are missing genre or runtime.
 - Include only fictional genres (where Genres does not include "Documentary".)
 
- 
+# Files Description
+1) Create-Movies-Database.sql - SQL codes that create the Movies database and the corresponding tables: 'genres', 'ratings', 'title_basics', and 'title_genre'. This should be run first to create the database before uploading the data entries using Python (sqlalchemy).
+2) ERD-Movies.mwb - the database model
+3) Creating_Movie_Database.ipynb - Python notebook containing lines of code that pre-processes/transforms the dataset and inserts the dataset entries into the respective MySQL database tables.
+4) Exploratory Data Analysis.ipynb - another Python code that contains lines of code that perform Exploratory Data Analysis on the dataset. Run this after 'Creating_Movie_Database.ipynb'
